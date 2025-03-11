@@ -65,6 +65,22 @@ A `requirements.txt` file is provided in this repository with all the required d
     pip install -r requirements.txt
     ```
 
+### Docker Setup (Alternative Installation)
+
+1.  **Build the Docker image:**
+
+    ```bash
+    docker build -t ai4india .
+    ```
+
+2.  **Run the Docker container:**
+
+    ```bash
+    docker run -it ai4india
+    ```
+
+This will build a Docker image named `ai4india` and run it. The container will execute the `train.py` script by default.
+
 ## Usage
 
 ### 1. Data Preparation
