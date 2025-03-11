@@ -13,6 +13,26 @@ This project provides a comprehensive framework for training, inferencing, and f
 *   **Text Generation:** Provides a text generation function for sampling from the trained model.
 *   **Model Saving and Loading:** Functionality to save and load trained models and tokenizers.
 
+## Features
+
+- [x] Decoder-Only Transformer Model
+- [x] Customizable Hyperparameters
+- [x] Efficient Data Handling
+- [x] Training and Validation
+- [x] Text Generation
+- [x] Model Saving and Loading
+- [x] Streaming data from storage to main memory
+- [x] Training script
+- [x] Inference script
+- [x] Data downloading
+
+## Not Implemented Features
+
+- [ ] KV Cache Optimization
+- [ ] Dynamic Batching
+- [ ] Prefill
+- [ ] Speculative Decoding
+
 ## Requirements
 
 *   Python 3.7+
