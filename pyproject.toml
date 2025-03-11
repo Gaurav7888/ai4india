@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai4india"
+version = "0.1.0"
+description = "LLM Training, Inference, and Fine-Tuning"
+authors = [{name = "Gaurav Sarkar", email = "your_email@example.com"}] # Replace with your email
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "torch",
+    "transformers",
+    "tqdm",
+    "regex",
+    "urllib3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["ai4india", "utils"] # Explicitly list your packages
+
+[tool.setuptools.package-data]
+"ai4india" = ["README.md", "LICENSE"]
+"utils" = ["*.py"]
