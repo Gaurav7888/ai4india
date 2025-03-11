@@ -15,16 +15,16 @@ This project provides a comprehensive framework for training, inferencing, and f
 
 ## Features
 
-- [x] Decoder-Only Transformer Model
-- [x] Customizable Hyperparameters
-- [x] Efficient Data Handling
-- [x] Training and Validation
-- [x] Text Generation
-- [x] Model Saving and Loading
-- [x] Streaming data from storage to main memory
-- [x] Training script
-- [x] Inference script
-- [x] Data downloading
+- ✅ Decoder-Only Transformer Model
+- ✅ Customizable Hyperparameters
+- ✅ Efficient Data Handling
+- ✅ Training and Validation
+- ✅ Text Generation
+- ✅ Model Saving and Loading
+- ✅ Streaming data from storage to main memory
+- ✅ Training script
+- ✅ Inference script
+- ✅ Data downloading
 
 ## Not Implemented Features
 
